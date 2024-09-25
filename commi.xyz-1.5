@@ -1,8 +1,7 @@
---[[
+-- Gui to Lua
+-- Version: 3.2
 
-It's an 1.5!
-
-]]
+-- Instances:
 
 local menu = Instance.new("ScreenGui")
 local UI = Instance.new("Frame")
@@ -88,7 +87,6 @@ local Clear = Instance.new("ImageButton")
 local UICorner_8 = Instance.new("UICorner")
 local Execute = Instance.new("ImageButton")
 local UICorner_9 = Instance.new("UICorner")
-local Display = Instance.new("TextLabel")
 local OffexecutorUI = Instance.new("TextButton")
 local Frame = Instance.new("Frame")
 local UICorner_10 = Instance.new("UICorner")
@@ -940,21 +938,6 @@ Execute.Image = "rbxassetid://5173558738"
 
 UICorner_9.Parent = Execute
 
-Display.Name = "Display"
-Display.Parent = ExecuteUI
-Display.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Display.BackgroundTransparency = 1.000
-Display.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Display.BorderSizePixel = 0
-Display.Position = UDim2.new(0.0240266211, 0, 0.1513284, 0)
-Display.Size = UDim2.new(0, 641, 0, 306)
-Display.Font = Enum.Font.GothamBold
-Display.Text = ""
-Display.TextColor3 = Color3.fromRGB(255, 255, 255)
-Display.TextSize = 20.000
-Display.TextXAlignment = Enum.TextXAlignment.Left
-Display.TextYAlignment = Enum.TextYAlignment.Top
-
 OffexecutorUI.Name = "OffexecutorUI"
 OffexecutorUI.Parent = menu
 OffexecutorUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1010,7 +993,7 @@ UICorner_11.Parent = OffUI
 
 -- Scripts:
 
-local function PXMHLBH_fake_script() -- ImageLabel.PlrIcon 
+local function VTYYPGZ_fake_script() -- ImageLabel.PlrIcon 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	local frame = script.Parent.Parent
@@ -1025,8 +1008,8 @@ local function PXMHLBH_fake_script() -- ImageLabel.PlrIcon
 	
 	frame.ImageLabel.Image = content
 end
-coroutine.wrap(PXMHLBH_fake_script)()
-local function TITGV_fake_script() -- menu.menumove 
+coroutine.wrap(VTYYPGZ_fake_script)()
+local function MBDZUD_fake_script() -- menu.menumove 
 	local script = Instance.new('LocalScript', menu)
 
 	local player = game.Players.LocalPlayer
@@ -1036,8 +1019,8 @@ local function TITGV_fake_script() -- menu.menumove
 	frame.Selectable = true
 	frame.Active = true
 end
-coroutine.wrap(TITGV_fake_script)()
-local function JOBUIIM_fake_script() -- Input.gavnooushit 
+coroutine.wrap(MBDZUD_fake_script)()
+local function BJFP_fake_script() -- Input.gavnooushit 
 	local script = Instance.new('LocalScript', Input)
 
 	local text = script.Parent
@@ -1068,8 +1051,8 @@ local function JOBUIIM_fake_script() -- Input.gavnooushit
 		robloxfucker()
 	end
 end
-coroutine.wrap(JOBUIIM_fake_script)()
-local function ZJGD_fake_script() -- ExecuteUI.Move 
+coroutine.wrap(BJFP_fake_script)()
+local function TUWZUWL_fake_script() -- ExecuteUI.Move 
 	local script = Instance.new('LocalScript', ExecuteUI)
 
 	local player = game.Players.LocalPlayer
@@ -1079,8 +1062,8 @@ local function ZJGD_fake_script() -- ExecuteUI.Move
 	frame.Selectable = true
 	frame.Active = true
 end
-coroutine.wrap(ZJGD_fake_script)()
-local function ESLDWGV_fake_script() -- infYield.Enable 
+coroutine.wrap(TUWZUWL_fake_script)()
+local function YKDKE_fake_script() -- infYield.Enable 
 	local script = Instance.new('LocalScript', infYield)
 
 	local userInputService = game:GetService("UserInputService")
@@ -1101,8 +1084,8 @@ local function ESLDWGV_fake_script() -- infYield.Enable
 	-- Подключаем функцию onClick к кнопке
 	button.Activated:Connect(onClick)
 end
-coroutine.wrap(ESLDWGV_fake_script)()
-local function VBQSB_fake_script() -- scripthub.Enable 
+coroutine.wrap(YKDKE_fake_script)()
+local function DARVW_fake_script() -- scripthub.Enable 
 	local script = Instance.new('LocalScript', scripthub)
 
 	local userInputService = game:GetService("UserInputService")
@@ -1122,8 +1105,8 @@ local function VBQSB_fake_script() -- scripthub.Enable
 	-- Подключаем функцию onClick к кнопке
 	button.Activated:Connect(onClick)
 end
-coroutine.wrap(VBQSB_fake_script)()
-local function GENLSO_fake_script() -- infYield_2.Enable 
+coroutine.wrap(DARVW_fake_script)()
+local function RRIZNC_fake_script() -- infYield_2.Enable 
 	local script = Instance.new('LocalScript', infYield_2)
 
 	local userInputService = game:GetService("UserInputService")
@@ -1144,8 +1127,8 @@ local function GENLSO_fake_script() -- infYield_2.Enable
 	-- Подключаем функцию onClick к кнопке
 	button.Activated:Connect(onClick)
 end
-coroutine.wrap(GENLSO_fake_script)()
-local function CQEZLWP_fake_script() -- scripthub_2.Enable 
+coroutine.wrap(RRIZNC_fake_script)()
+local function SXJOYS_fake_script() -- scripthub_2.Enable 
 	local script = Instance.new('LocalScript', scripthub_2)
 
 	local userInputService = game:GetService("UserInputService")
@@ -1165,8 +1148,8 @@ local function CQEZLWP_fake_script() -- scripthub_2.Enable
 	-- Подключаем функцию onClick к кнопке
 	button.Activated:Connect(onClick)
 end
-coroutine.wrap(CQEZLWP_fake_script)()
-local function DCJSZ_fake_script() -- bypasswords.Enable 
+coroutine.wrap(SXJOYS_fake_script)()
+local function COBLUES_fake_script() -- bypasswords.Enable 
 	local script = Instance.new('LocalScript', bypasswords)
 
 	local userInputService = game:GetService("UserInputService")
@@ -1186,8 +1169,8 @@ local function DCJSZ_fake_script() -- bypasswords.Enable
 	-- Подключаем функцию onClick к кнопке
 	button.Activated:Connect(onClick)
 end
-coroutine.wrap(DCJSZ_fake_script)()
-local function VXMC_fake_script() -- chatspy.Enable 
+coroutine.wrap(COBLUES_fake_script)()
+local function PRJYDYH_fake_script() -- chatspy.Enable 
 	local script = Instance.new('LocalScript', chatspy)
 
 	local userInputService = game:GetService("UserInputService")
@@ -1207,8 +1190,8 @@ local function VXMC_fake_script() -- chatspy.Enable
 	-- Подключаем функцию onClick к кнопке
 	button.Activated:Connect(onClick)
 end
-coroutine.wrap(VXMC_fake_script)()
-local function SHXPZAR_fake_script() -- owlhub.Enable 
+coroutine.wrap(PRJYDYH_fake_script)()
+local function SCKKTOP_fake_script() -- owlhub.Enable 
 	local script = Instance.new('LocalScript', owlhub)
 
 	local userInputService = game:GetService("UserInputService")
@@ -1228,8 +1211,8 @@ local function SHXPZAR_fake_script() -- owlhub.Enable
 	-- Подключаем функцию onClick к кнопке
 	button.Activated:Connect(onClick)
 end
-coroutine.wrap(SHXPZAR_fake_script)()
-local function YKTONGH_fake_script() -- Clear.Clear 
+coroutine.wrap(SCKKTOP_fake_script)()
+local function SXABTQO_fake_script() -- Clear.Clear 
 	local script = Instance.new('LocalScript', Clear)
 
 	local button = script.Parent
@@ -1238,8 +1221,8 @@ local function YKTONGH_fake_script() -- Clear.Clear
 		textbox.Text = ""
 	end)
 end
-coroutine.wrap(YKTONGH_fake_script)()
-local function PAXZT_fake_script() -- Execute.LocalScript 
+coroutine.wrap(SXABTQO_fake_script)()
+local function DCNBLE_fake_script() -- Execute.LocalScript 
 	local script = Instance.new('LocalScript', Execute)
 
 	local button = script.Parent
@@ -1248,123 +1231,8 @@ local function PAXZT_fake_script() -- Execute.LocalScript
 		loadstring(textbox.Text)()
 	end)
 end
-coroutine.wrap(PAXZT_fake_script)()
-local function HQNNDR_fake_script() -- ExecuteUI.RichTextBox 
-	local script = Instance.new('LocalScript', ExecuteUI)
-
-	local Margin = script.Parent
-	local Input = script.Parent.Input
-	local Display = script.Parent.Display
-	
-	local Colors = {
-		[Color3.fromRGB(248, 76, 79)] = {
-			"local",
-			"function",
-			"return",
-			"print",
-			"error",
-			"end)",
-			"end",
-			"if",
-			"not",
-			"else",
-			"elseif"
-		},
-		
-		[Color3.fromRGB(0, 161, 248)] = {
-			"script",
-			"workspace",
-			"game",
-			"warn",
-			"loadstring",
-			"UDim2.new",
-		},
-		
-		[Color3.fromRGB(0, 107, 248)] = {
-			"Parent",
-			"Workspace",
-			"MouseButton1Click",
-			"Text",
-			"Activated",
-			"Players",
-			"LocalPlayer",
-		},
-		
-		[Color3.fromRGB(248, 238, 103)] = {
-			"Connect",
-			"GetService",
-			"GetDescendants()",
-			"GetDescendants",
-			"Clone",
-			"Clone()",
-			"WaitForChild",
-			"RemoveDefaultLoadingScreen",
-			"createTween",
-			"Create",
-			"Play",
-			"Destroy",
-			"PreloadAsync"
-		},
-		
-		[Color3.fromRGB(167, 167, 11)] = {
-			"true",
-			"false",
-		},
-		
-		[Color3.fromRGB(127, 212, 31)] = {
-			"UserInputService",
-			"StarterPack",
-			"StarterPlayer",
-			"Teams",
-			"SoundService",
-			"TextChatService",
-			"StarterGui",
-			"ServerScriptService",
-			"ReplicatedStorage",
-			"ReplicatedFirst",
-			"Lighting",
-			"TweenService",
-			"ContentProvider",
-			"PlayerGui",
-		},
-		
-		[Color3.fromRGB(255, 10, 50)] = {
-			"Aerodymier",
-			"CodesOtaku",
-			"boshjosh1918",
-			"Merokieo",
-			"💀💀💀",
-			"Raph",
-			"dorchy",
-			"TheEPICArt",
-			"PixelBlox",
-		}
-	}
-	
-	local ColorizePattern = '<font color="rgb(%d, %d, %d)">%s</font>'
-	
-	local function Colorize(keyword, color)
-		return string.format(ColorizePattern, color.r*255, color.g*255, color.b*255, keyword)
-	end
-	
-	local function ProcessText(text)
-		for color, keywords in pairs(Colors) do
-			for _, keyword in pairs(keywords) do
-				text = string.gsub(text, keyword, Colorize(keyword, color))
-			end
-		end
-		return text
-	end
-	
-	local function InputChanged()
-		local text = Input.Text
-		Display.Text = ProcessText(text)
-	end
-	
-	Input:GetPropertyChangedSignal("Text"):Connect(InputChanged)
-end
-coroutine.wrap(HQNNDR_fake_script)()
-local function VGQHVZ_fake_script() -- OffexecutorUI.LocalScript 
+coroutine.wrap(DCNBLE_fake_script)()
+local function VEQC_fake_script() -- OffexecutorUI.LocalScript 
 	local script = Instance.new('LocalScript', OffexecutorUI)
 
 	local frame = script.Parent.Parent.ExecuteUI
@@ -1383,8 +1251,8 @@ local function VGQHVZ_fake_script() -- OffexecutorUI.LocalScript
 		error("Script parent object is not a UI object!")
 	end
 end
-coroutine.wrap(VGQHVZ_fake_script)()
-local function CFHH_fake_script() -- OffexecutorUI.offexecui 
+coroutine.wrap(VEQC_fake_script)()
+local function QDIFSU_fake_script() -- OffexecutorUI.offexecui 
 	local script = Instance.new('LocalScript', OffexecutorUI)
 
 	local player = game.Players.LocalPlayer
@@ -1394,8 +1262,8 @@ local function CFHH_fake_script() -- OffexecutorUI.offexecui
 	frame.Selectable = true
 	frame.Active = true
 end
-coroutine.wrap(CFHH_fake_script)()
-local function JCATOY_fake_script() -- star.LocalScript 
+coroutine.wrap(QDIFSU_fake_script)()
+local function XUZSTMI_fake_script() -- star.LocalScript 
 	local script = Instance.new('LocalScript', star)
 
 	local image = script.Parent
@@ -1423,8 +1291,8 @@ local function JCATOY_fake_script() -- star.LocalScript
 	
 	animate()
 end
-coroutine.wrap(JCATOY_fake_script)()
-local function AXHVFEM_fake_script() -- OffUI.LocalScript 
+coroutine.wrap(XUZSTMI_fake_script)()
+local function OPUSROJ_fake_script() -- OffUI.LocalScript 
 	local script = Instance.new('LocalScript', OffUI)
 
 	local frame = script.Parent.Parent.UI
@@ -1443,7 +1311,7 @@ local function AXHVFEM_fake_script() -- OffUI.LocalScript
 		error("Script parent object is not a UI object!")
 	end
 end
-coroutine.wrap(AXHVFEM_fake_script)()
+coroutine.wrap(OPUSROJ_fake_script)()
 
 
 --[[
